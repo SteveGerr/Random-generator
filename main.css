@@ -1,0 +1,47 @@
+.gen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #2761dd;
+    border-radius: 15px;
+  }
+  #random-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100px;
+    font-size: 100px;
+    color: cornsilk;
+  }
+  #btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+#btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 6px 10px;
+    appearance: none;
+    border: none;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+}
+#btn:active {
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95);
+}
