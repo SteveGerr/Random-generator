@@ -1,3 +1,9 @@
+body {
+    background: url("blue-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 .gen-container {
     display: flex;
     flex-direction: column;
@@ -6,8 +12,11 @@
     width: 300px;
     margin: 10% auto;
     padding: 20px;
-    background: #2761dd;
+    background: #3a87d8;
     border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(4, 40, 107, 0.75);
+    -moz-box-shadow:    0px 0px 13px 0px rgba(4, 40, 107, 0.75);
+    box-shadow:         0px 0px 13px 0px rgba(4, 40, 107, 0.75);
   }
   #random-num {
     display: flex;
@@ -15,8 +24,9 @@
     align-items: center;
     width: 50px;
     height: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
-    color: cornsilk;
+    color: #82ceeb;
   }
   #btn-container {
     display: flex;
@@ -30,13 +40,14 @@
     appearance: none;
     border: none;
     height: 30px;
-    background: #ffffff;
+    background: #57a5df;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     cursor: pointer;
+    outline: none;
 }
 #btn:active {
     transform: scale(.95);

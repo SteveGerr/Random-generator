@@ -23,7 +23,15 @@ for(var i = 1; i < 351; i++){
 }
 
 let btn = document.querySelector('#btn'),
+    by = document.createElement("span"),
     result = document.querySelector('#random-num');
+    document.body.appendChild(by);
+    by.innerHTML = "Development and Design by SteveGerr";
+    by.style.color = "#82ceeb";
+    by.style.margin = "auto";
+    by.style.display = "flex";
+    by.style.justifyContent = "center";
+
 
 btn.addEventListener('click', ()=>{
 	let interval = setInterval(()=>{
